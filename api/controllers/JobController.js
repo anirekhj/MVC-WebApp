@@ -1,8 +1,8 @@
 let mysqlssh = require('mysql-ssh');
 
-const user = 'ajain'      // timberlea username
-const pass = 'Increct1'      // timberlea password
-const banner = 'B00726952'    // banner id in the format B00XXXXXX
+const user = ''      // timberlea username
+const pass = ''      // timberlea password
+const banner = ''    // banner id in the format B00XXXXXX
 
 const connectionInfo = [{
     host: 'timberlea.cs.dal.ca',
