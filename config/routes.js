@@ -20,6 +20,13 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
+  'GET /jobs952': 'job.jobs952',
+  'GET /searchjobs952': { view: 'pages/searchJobs' },
+  'POST /searchjobs952': 'job.specific_job952',
+  'GET /addjobs952': { view: 'pages/addJobs' },
+  'POST /addjobs952': 'job.add_job952',
+  'GET /updatejobs952': { view: 'pages/updateJobs' },
+  'POST /updatejobs952': 'job.update_job952',
 
 
   /***************************************************************************
